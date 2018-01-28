@@ -92,3 +92,33 @@ Tachado: ~~tachado~~
 + mas
 
 
+## Párrafos
+
+Para crear párrafos se deja una línea en blanco.
+Este es el primer párrafo.
+
+Este es el segundo párrafo
+
+Para hacer un salto de línea de sejan 2 espacios en blanco al final de la última palabra de esa línea.
+Este es el primer párrafo.  
+Este es el segundo párrafo
+
+## Links
+
+```no-highlight
+[UTA](http://joedicastro.com)
+```
+[UTA](http://joedicastro.com)
+
+```no-highlight
+[Enlace 1][1], [Enlace 2][2], [Enlace 3][3]
+
+ [1]: http://joedicastro.com/consejos
+ [2]: http://joedicastro.com/consejos
+ [3]: http://joedicastro.com/
+```
+[Enlace 1][1], [Enlace 2][2], [Enlace 3][3]
+
+ [1]: http://joedicastro.com/consejos
+ [2]: http://joedicastro.com/consejos
+ [3]: http://joedicastro.com/
