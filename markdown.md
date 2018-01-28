@@ -65,6 +65,8 @@ Lista numerada (ordenada)
 2. Este es el segundo elemento
 3. Este es el tercer elemento
 
+***
+
 ```no-highlight
 Lista de puntos (desordenada)
 
@@ -79,6 +81,8 @@ Lista de puntos (desordenada)
 * Otro elemento de la lista
 * El tercer elemento de la lista
 
+***
+
 ```no-highlight
 Se pueden emplear también + y - en vez de *
 
@@ -92,6 +96,8 @@ Se pueden emplear también + y - en vez de *
 * Un elemento de la lista
 + Otro elemento de la lista
 - El tercer elemento de la lista
+
+***
 
 ```no-highlight
 Se pueden mezclar distintos tipos de listas y anidar unas dentro de otras.
@@ -120,6 +126,8 @@ Este es el primer párrafo.
 
 Este es el segundo párrafo
 
+***
+
 Para hacer un salto de línea de sejan 2 espacios en blanco al final de la última palabra de esa línea.
 Este es el primer párrafo.  
 Este es el segundo párrafo
@@ -131,6 +139,8 @@ Este es el segundo párrafo
 ```
 [Enlace](http://joedicastro.com)
 
+***
+
 ```no-highlight
 [Enlace 1][1], [Enlace 2][2], [Enlace 3][3]
 
@@ -143,6 +153,8 @@ Este es el segundo párrafo
 [1]: http://joedicastro.com/consejos
 [2]: http://joedicastro.com/consejos
 [3]: http://joedicastro.com/
+
+***
 
 ```no-highlight
 <http://joedicastro.com>
@@ -164,6 +176,8 @@ Esto es una línea normal
 > Esto es parte de un bloque de cita.
 > Esto es parte del mismo bloque de cita.
 
+***
+
 ```no-highlight
 > Esto es parte de un bloque de cita.
 Esto continúa el bloque incluso aunque no hay símbolo 'mayor que'.
@@ -177,6 +191,8 @@ Esto continúa el bloque incluso aunque no hay símbolo 'mayor que'.
 La línea en blanco finaliza el bloque.
 
 Esto es una línea normal
+
+***
 
 ```no-highlight
 > Esto es parte de un bloque de cita.
@@ -203,5 +219,90 @@ Esto es una línea normal
 ```
 
 ***
+
+```no-highlight
 - - -
+```
+
+- - -
+
+```no-highlight
 ___
+```
+
+___
+
+## Carácteres Especiales
+
+```no-highlight
+\\  
+\`  
+\*  
+\_  
+\{  
+\}  
+\[  
+\]  
+\(  
+\)  
+\#  
+\+  
+\-  
+\.  
+\!  
+\:  
+\|
+```
+
+\\  
+\`  
+\*  
+\_  
+\{  
+\}  
+\[  
+\]  
+\(  
+\)  
+\#  
+\+  
+\-  
+\.  
+\!  
+\:  
+\|
+
+## Código Fuente
+
+
+```c
+#include <stdio.h>
+int main()
+{
+    printf("¡Hola, mundo!\n");
+    return 0;
+}
+```
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```apache
+<VirtualHost *:80>
+DocumentRoot /www/example1
+ServerName www.example1.com
+
+# Other directives here
+
+</VirtualHost>
+```
