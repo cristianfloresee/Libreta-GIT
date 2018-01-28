@@ -11,7 +11,6 @@ Note that there is also a [Cheatsheet specific to Markdown Here](./Markdown-Here
  - [4. App Preview](#app-preview)
  - [5. Deploying](#5-deploying)
 
-<a name="cabeceras"/>
 
 ## Encabezados
 
@@ -51,46 +50,68 @@ Tachado: ~~tachado~~
 
 ~~tachado~~
 
-## Lists
-
-(In this example, leading and trailing spaces are shown with with dots: ⋅)
+## Listas
 
 ```no-highlight
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+Lista numerada (ordenada)
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+1. Este es el primer elemento
+2. Este es el segundo elemento
+3. Este es el tercer elemento
+```
+Lista numerada (ordenada)
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+1. Este es el primer elemento
+2. Este es el segundo elemento
+3. Este es el tercer elemento
 
-* asteriscos
-- menos
-+ mas
+```no-highlight
+Lista de puntos (desordenada)
+
+* Un elemento de la lista
+* Otro elemento de la lista
+* El tercer elemento de la lista
 ```
 
-1. First ordered list item
-2. Another item
-  * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.
+Lista de puntos (desordenada)
 
-   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+* Un elemento de la lista
+* Otro elemento de la lista
+* El tercer elemento de la lista
 
-   To have a line break without a paragraph, you will need to use two trailing spaces.  
-   Note that this line is separate, but within the same paragraph.  
-   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+```no-highlight
+Se pueden emplear también + y - en vez de *
 
-* asteriscos
-- menos
-+ mas
+* Un elemento de la lista
++ Otro elemento de la lista
+- El tercer elemento de la lista
+```
 
+Se pueden emplear también + y - en vez de *
+
+* Un elemento de la lista
++ Otro elemento de la lista
+- El tercer elemento de la lista
+
+```no-highlight
+Se pueden mezclar distintos tipos de listas y anidar unas dentro de otras.
+
+1. Esto es una lista ordenada
+2. Segundo elemento de la lista ordenada
+    1. Esta es una lista ordenada anidada dentro de otra
+        * Lista desordenada anidada a tercer nivel
+        * Segundo elemento de esta lista
+    2. Este es el segundo elemento de la lista ordenada anidada
+```
+
+Se pueden mezclar distintos tipos de listas y anidar unas dentro de otras.
+
+1. Esto es una lista ordenada
+2. Segundo elemento de la lista ordenada
+    1. Esta es una lista ordenada anidada dentro de otra
+        * Lista desordenada anidada a tercer nivel
+        * Segundo elemento de esta lista
+    2. Este es el segundo elemento de la lista ordenada anidada
 
 ## Párrafos
 
@@ -106,19 +127,81 @@ Este es el segundo párrafo
 ## Links
 
 ```no-highlight
-[UTA](http://joedicastro.com)
+[Enlace](http://joedicastro.com)
 ```
-[UTA](http://joedicastro.com)
+[Enlace](http://joedicastro.com)
 
 ```no-highlight
 [Enlace 1][1], [Enlace 2][2], [Enlace 3][3]
 
- [1]: http://joedicastro.com/consejos
- [2]: http://joedicastro.com/consejos
- [3]: http://joedicastro.com/
+[1]: http://joedicastro.com/consejos
+[2]: http://joedicastro.com/consejos
+[3]: http://joedicastro.com/
 ```
 [Enlace 1][1], [Enlace 2][2], [Enlace 3][3]
 
- [1]: http://joedicastro.com/consejos
- [2]: http://joedicastro.com/consejos
- [3]: http://joedicastro.com/
+[1]: http://joedicastro.com/consejos
+[2]: http://joedicastro.com/consejos
+[3]: http://joedicastro.com/
+
+```no-highlight
+<http://joedicastro.com>
+```
+<http://joedicastro.com>
+
+
+## Citas
+
+```no-highlight
+Esto es una línea normal
+
+> Esto es parte de un bloque de cita.
+> Esto es parte del mismo bloque de cita.
+```
+
+Esto es una línea normal
+
+> Esto es parte de un bloque de cita.
+> Esto es parte del mismo bloque de cita.
+
+```no-highlight
+> Esto es parte de un bloque de cita.
+Esto continúa el bloque incluso aunque no hay símbolo 'mayor que'.
+
+La línea en blanco finaliza el bloque.
+```
+
+> Esto es parte de un bloque de cita.
+Esto continúa el bloque incluso aunque no hay símbolo 'mayor que'.
+
+La línea en blanco finaliza el bloque.
+
+Esto es una línea normal
+
+```no-highlight
+> Esto es parte de un bloque de cita.
+> Esto es parte del mismo bloque de cita.
+>
+> > Esto es otro bloque de cita anidado.
+> > Esto es parte del bloque anidado.
+>
+> Esto es parte del bloque de cita de primer nivel.
+```
+
+> Esto es parte de un bloque de cita.
+> Esto es parte del mismo bloque de cita.
+>
+> > Esto es otro bloque de cita anidado.
+> > Esto es parte del bloque anidado.
+>
+> Esto es parte del bloque de cita de primer nivel.
+
+## Líneas Horizontales
+
+```no-highlight
+***
+```
+
+***
+- - -
+___
