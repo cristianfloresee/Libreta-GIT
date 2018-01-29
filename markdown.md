@@ -30,25 +30,21 @@ Note that there is also a [Cheatsheet specific to Markdown Here](./Markdown-Here
 ##### H5
 ###### H6
 
+
 ## Énfasis
 
+| Resultado | MarkDown |
+| -- | -- |
+| *cursiva* | `*cursiva*` | 
+| **negrita** | `**negrita**` | 
+|  __negrita__ | `__negrita__` |
+|  ~~tachado~~ | `~~tachado~~` |
+
+
 ```no-highlight
-Cursiva: *cursiva* o _cursiva_.
-
-Negrita: **negrita** o __negrita__.
-
 Combinación de negrita y cursiva: **negrita y _negrita y cursiva_**.
-
-Tachado: ~~tachado~~
 ```
 
-*cursiva* o _cursiva_.
-
-**negrita** o __negrita__.
-
-**negrita y _negrita y cursiva_**.
-
-~~tachado~~
 
 ## Listas
 
@@ -234,13 +230,14 @@ ___
 
 ## Carácteres Especiales
 
-| Markdown | Resultado |
+| Resultado | MarkDown |
 | -- | -- |
+| \| |  `\|` | 
+| \\ |`\\` | 
+| \` | ` \` ` | 
+
 
 ```no-highlight
-\|  
-\\  
-\`  
 \*  
 \_  
 \{  
@@ -372,6 +369,8 @@ SELECT 'HOLA MUNDO';
 
 ## Youtube
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=1Cs0qyG78qY
-" target="_blank"><img src="http://img.youtube.com/vi/1Cs0qyG78qY/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+```html
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ID_VIDEO_YOUTUBE" target="_blank">
+    <img src="http://img.youtube.com/vi/ID_VIDEO_YOUTUBE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"/>
+</a>
+```
