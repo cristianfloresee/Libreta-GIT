@@ -273,6 +273,20 @@ ___
 \:  
 \|
 
+
+## Tablas 
+```
+Cabecera | Cabecera | Cabecera
+-------|--------|-------
+Celda | Celda | Celda
+Celda | Celda | Celda
+```
+
+Cabecera | Cabecera | Cabecera
+-------|--------|-------
+Celda | Celda | Celda
+Celda | Celda | Celda
+
 ## Código Fuente
 
 ```apache
@@ -319,53 +333,14 @@ SELECT 'HOLA MUNDO';
 
 
 ## Emojis
-```no-highlight
-:smile:
-```
 
-:smile:
-
-```no-highlight
-:heart:
-```
-
-:heart:
-
-```no-highlight
-:thumbsup: o :+1:
-```
-
-:thumbsup: o :+1:
-
-```no-highlight
-:thumbsdown: o :-1:
-```
-
-:thumbsdown: o :-1:
-
-```no-highlight
-:bug:
-```
-
-:bug:
-
-```no-highlight
-:cloud:
-```
-
-:cloud:
-
-```no-highlight
-:bulb:
-```
-
-:bulb:
-
-```no-highlight
-:trophy:
-```
-
-:trophy:
+| :bowtie: `:bowtie:` | :smile: `:smile:` | :laughing: `:laughing:` |
+|---|---|---|
+| :blush: `:blush:` | :smiley: `:smiley:` | :relaxed: `:relaxed:` |
+| :smirk: `:smirk:` | :heart_eyes: `:heart_eyes:` | :kissing_heart: `:kissing_heart:` |
+| :kissing_closed_eyes: `:kissing_closed_eyes:` | :flushed: `:flushed:` | :relieved: `:relieved:` |
+| :satisfied: `:satisfied:` | :grin: `:grin:` | :wink: `:wink:` |
+| :stuck_out_tongue_winking_eye: `:stuck_out_tongue_winking_eye:` | :stuck_out_tongue_closed_eyes: `:stuck_out_tongue_closed_eyes:` | 
 
 ## Youtube
 
