@@ -297,6 +297,12 @@ s = "Python syntax highlighting"
 print s
 ```
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 ```apache
 <VirtualHost *:80>
 DocumentRoot /www/example1
@@ -306,3 +312,26 @@ ServerName www.example1.com
 
 </VirtualHost>
 ```
+
+```mysql
+SELECT 'HOLA MUNDO';
+```
+
+
+## Emojis
+
+:smile:
+
+:heart:
+
+:thumbsup: :+1:
+
+:thumbsdown: :-1:
+
+:bug:
+
+:cloud:
+
+:bulb:
+
+:trophy:
