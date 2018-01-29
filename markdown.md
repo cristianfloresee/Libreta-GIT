@@ -135,31 +135,31 @@ Este es el segundo párrafo
 ## Links
 
 ```no-highlight
-[Enlace](http://joedicastro.com)
+[Enlace](https://github.com/cristianfloresee)
 ```
-[Enlace](http://joedicastro.com)
+[Enlace](https://github.com/cristianfloresee)
 
 ***
 
 ```no-highlight
 [Enlace 1][1], [Enlace 2][2], [Enlace 3][3]
 
-[1]: http://joedicastro.com/consejos
-[2]: http://joedicastro.com/consejos
-[3]: http://joedicastro.com/
+[1]: https://github.com/cristianfloresee
+[2]: https://github.com/cristianfloresee
+[3]: https://github.com/cristianfloresee
 ```
 [Enlace 1][1], [Enlace 2][2], [Enlace 3][3]
 
-[1]: http://joedicastro.com/consejos
-[2]: http://joedicastro.com/consejos
-[3]: http://joedicastro.com/
+[1]: https://github.com/cristianfloresee
+[2]: https://github.com/cristianfloresee
+[3]: https://github.com/cristianfloresee
 
 ***
 
 ```no-highlight
-<http://joedicastro.com>
+<https://github.com/cristianfloresee>
 ```
-<http://joedicastro.com>
+<https://github.com/cristianfloresee>
 
 
 ## Citas
@@ -234,7 +234,11 @@ ___
 
 ## Carácteres Especiales
 
+| Markdown | Resultado |
+| -- | -- |
+
 ```no-highlight
+\|  
 \\  
 \`  
 \*  
@@ -274,6 +278,15 @@ ___
 
 ## Código Fuente
 
+```apache
+<VirtualHost *:80>
+DocumentRoot /www/example1
+ServerName www.example1.com
+
+# Other directives here
+
+</VirtualHost>
+```
 
 ```c
 #include <stdio.h>
@@ -303,35 +316,62 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
-```apache
-<VirtualHost *:80>
-DocumentRoot /www/example1
-ServerName www.example1.com
-
-# Other directives here
-
-</VirtualHost>
-```
-
 ```mysql
 SELECT 'HOLA MUNDO';
 ```
 
 
 ## Emojis
+```no-highlight
+:smile:
+```
 
 :smile:
 
+```no-highlight
+:heart:
+```
+
 :heart:
 
-:thumbsup: :+1:
+```no-highlight
+:thumbsup: o :+1:
+```
 
-:thumbsdown: :-1:
+:thumbsup: o :+1:
+
+```no-highlight
+:thumbsdown: o :-1:
+```
+
+:thumbsdown: o :-1:
+
+```no-highlight
+:bug:
+```
 
 :bug:
 
+```no-highlight
 :cloud:
+```
+
+:cloud:
+
+```no-highlight
+:bulb:
+```
 
 :bulb:
 
+```no-highlight
 :trophy:
+```
+
+:trophy:
+
+## Youtube
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
