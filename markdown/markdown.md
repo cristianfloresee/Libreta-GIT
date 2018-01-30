@@ -189,6 +189,15 @@ La línea en blanco finaliza el bloque.
 Esto es una línea normal
 
 ***
+1|2
+-|-
+|`> Esto es parte de un bloque de cita.`|
+|`> Esto es parte del mismo bloque de cita.`|
+|`>`|
+|`> > Esto es otro bloque de cita anidado.`|
+|`> > Esto es parte del bloque anidado.`|
+|`>`|
+|`> Esto es parte del bloque de cita de primer nivel.`|
 
 ```no-highlight
 > Esto es parte de un bloque de cita.
@@ -232,58 +241,35 @@ ___
 
 | Resultado | MarkDown |
 | -- | -- |
-| \| |  `\|` | 
-| \\ |`\\` | 
-| \` | ` \` ` | 
-
-
-```no-highlight
-\*  
-\_  
-\{  
-\}  
-\[  
-\]  
-\(  
-\)  
-\#  
-\+  
-\-  
-\.  
-\!  
-\:  
-\|
-```
-
-\\  
-\`  
-\*  
-\_  
-\{  
-\}  
-\[  
-\]  
-\(  
-\)  
-\#  
-\+  
-\-  
-\.  
-\!  
-\:  
-\|
-
+| \| | `\|` | 
+| \\ | `\\` | 
+| \` | `\` ` | 
+| \_ | `\_` |
+| \{ | `\{` |
+| \} | `\}` |
+| \[ | `\[` |
+| \] | `\]` |
+| \( | `\(` |
+| \) | `\)` |
+| \# | `\#` |
+| \+ | `\+` |
+| \- | `\-` |
+| \. | `\.` |
+| \! | `\!` |
+| \: | `\:` |
+| \| | `\|` |
+| \: | `\:` |
 
 ## Tablas 
 ```
 Cabecera | Cabecera | Cabecera
--------|--------|-------
+-|-|-
 Celda | Celda | Celda
 Celda | Celda | Celda
 ```
 
 Cabecera | Cabecera | Cabecera
--------|--------|-------
+-|-|-
 Celda | Celda | Celda
 Celda | Celda | Celda
 
@@ -349,3 +335,10 @@ SELECT 'HOLA MUNDO';
     <img src="http://img.youtube.com/vi/ID_VIDEO_YOUTUBE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"/>
 </a>
 ```
+
+## Referencias
+
+* Markdown Cheatsheet:  
+<https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
+* Guía Markdown Español:  
+<http://joedicastro.com/pages/markdown.html>
